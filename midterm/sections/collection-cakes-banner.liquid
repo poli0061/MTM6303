@@ -1,0 +1,16 @@
+<div class="wrapper">
+<img src="{{section.settings.image | image_url}}">
+</div>
+
+{% schema %}
+  {
+  "name": "Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner"
+      }
+  ]
+}
+{% endschema %}
