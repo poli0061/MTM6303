@@ -1,0 +1,166 @@
+[15-Apr-2022 04:09:55 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 17
+[15-Apr-2022 04:38:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\script-loader.php on line 2740
+[15-Apr-2022 04:38:32 UTC] PHP Stack trace:
+[15-Apr-2022 04:38:32 UTC] PHP   1. {main}() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:0
+[15-Apr-2022 04:38:32 UTC] PHP   2. require() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:17
+[15-Apr-2022 04:38:32 UTC] PHP   3. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-blog-header.php:19
+[15-Apr-2022 04:38:32 UTC] PHP   4. include() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template-loader.php:106
+[15-Apr-2022 04:38:32 UTC] PHP   5. get_footer() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php:158
+[15-Apr-2022 04:38:32 UTC] PHP   6. locate_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:92
+[15-Apr-2022 04:38:32 UTC] PHP   7. load_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:716
+[15-Apr-2022 04:38:32 UTC] PHP   8. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:770
+[15-Apr-2022 04:38:32 UTC] PHP   9. wp_footer() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php:33
+[15-Apr-2022 04:38:32 UTC] PHP  10. do_action() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:3058
+[15-Apr-2022 04:38:32 UTC] PHP  11. WP_Hook->do_action() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\plugin.php:474
+[15-Apr-2022 04:38:32 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\class-wp-hook.php:331
+[15-Apr-2022 04:38:32 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\class-wp-hook.php:307
+[15-Apr-2022 04:38:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\script-loader.php on line 2740
+[15-Apr-2022 04:38:32 UTC] PHP Stack trace:
+[15-Apr-2022 04:38:32 UTC] PHP   1. {main}() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:0
+[15-Apr-2022 04:38:32 UTC] PHP   2. require() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:17
+[15-Apr-2022 04:38:32 UTC] PHP   3. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-blog-header.php:19
+[15-Apr-2022 04:38:32 UTC] PHP   4. include() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template-loader.php:106
+[15-Apr-2022 04:38:32 UTC] PHP   5. get_footer() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php:158
+[15-Apr-2022 04:38:32 UTC] PHP   6. locate_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:92
+[15-Apr-2022 04:38:32 UTC] PHP   7. load_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:716
+[15-Apr-2022 04:38:32 UTC] PHP   8. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:770
+[15-Apr-2022 04:38:32 UTC] PHP   9. wp_footer() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php:33
+[15-Apr-2022 04:38:32 UTC] PHP  10. do_action() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:3058
+[15-Apr-2022 04:38:32 UTC] PHP  11. WP_Hook->do_action() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\plugin.php:474
+[15-Apr-2022 04:38:32 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\class-wp-hook.php:331
+[15-Apr-2022 04:38:32 UTC] PHP  13. wp_maybe_inline_styles() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\class-wp-hook.php:307
+[15-Apr-2022 05:04:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyeleven_get_theme_options() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php:10
+Stack trace:
+#0 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#2 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php(23): get_sidebar('footer')
+#4 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once('C:\\Users\\Nika\\L...')
+#5 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#6 C:\Users\Nika\Local Sites\ in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php on line 10
+[15-Apr-2022 05:04:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyeleven_get_theme_options() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php:10
+Stack trace:
+#0 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#2 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php(23): get_sidebar('footer')
+#4 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once('C:\\Users\\Nika\\L...')
+#5 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#6 C:\Users\Nika\Local Sites\ in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php on line 10
+[19-Apr-2022 08:08:05 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 31
+[19-Apr-2022 08:09:06 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:07 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:07 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:07 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:30 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:30 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:31 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:31 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:49 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:49 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:50 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:50 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:50 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:50 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:51 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:09:51 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:10:06 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:10:23 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:10:23 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\functions.php on line 32
+[19-Apr-2022 08:13:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyeleven_get_theme_options() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php:10
+Stack trace:
+#0 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#2 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php(23): get_sidebar('footer')
+#4 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once('C:\\Users\\Nika\\L...')
+#5 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#6 C:\Users\Nika\Local Sites\ in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php on line 10
+[19-Apr-2022 08:48:54 UTC] PHP Parse error:  syntax error, unexpected ''container_class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\header.php on line 52
+[19-Apr-2022 08:55:18 UTC] PHP Parse error:  syntax error, unexpected ''container_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\header.php on line 49
+[19-Apr-2022 09:17:29 UTC] PHP Parse error:  syntax error, unexpected '$labels' (T_VARIABLE), expecting ';' or ',' in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\plugins\mtm6303finalplugin\mtm6303finalplugin.php on line 22
+[19-Apr-2022 09:17:40 UTC] PHP Warning:  Use of undefined constant mtm6303 - assumed 'mtm6303' (this will throw an Error in a future version of PHP) in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php on line 10
+[19-Apr-2022 09:17:40 UTC] PHP Stack trace:
+[19-Apr-2022 09:17:40 UTC] PHP   1. {main}() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:0
+[19-Apr-2022 09:17:40 UTC] PHP   2. require() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\index.php:17
+[19-Apr-2022 09:17:40 UTC] PHP   3. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-blog-header.php:19
+[19-Apr-2022 09:17:40 UTC] PHP   4. include() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template-loader.php:106
+[19-Apr-2022 09:17:40 UTC] PHP   5. get_footer() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\front-page.php:38
+[19-Apr-2022 09:17:40 UTC] PHP   6. locate_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:92
+[19-Apr-2022 09:17:40 UTC] PHP   7. load_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:716
+[19-Apr-2022 09:17:40 UTC] PHP   8. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:770
+[19-Apr-2022 09:17:40 UTC] PHP   9. get_sidebar() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php:23
+[19-Apr-2022 09:17:40 UTC] PHP  10. locate_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php:136
+[19-Apr-2022 09:17:40 UTC] PHP  11. load_template() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:716
+[19-Apr-2022 09:17:40 UTC] PHP  12. require_once() C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php:770
+[19-Apr-2022 09:17:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function final_get_theme_options() in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php:10
+Stack trace:
+#0 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#2 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\footer.php(23): get_sidebar('footer')
+#4 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(770): require_once('C:\\Users\\Nika\\L...')
+#5 C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Nika\\L...', true, Array)
+#6 C:\Users\Nika\Local Sites\poli006 in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\sidebar.php on line 10
+[19-Apr-2022 09:28:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:28:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:28:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:28:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:28:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 32
+[19-Apr-2022 09:29:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 32
+[19-Apr-2022 09:30:11 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:30:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 94
+[19-Apr-2022 09:30:37 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 94
+[19-Apr-2022 09:31:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 34
+[19-Apr-2022 09:43:39 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:43:44 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:43:47 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:43:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:44:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:45:11 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:45:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:45:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:47:00 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:47:07 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:21 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:44 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:53 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:48:54 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:51:43 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:55:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:57:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 09:59:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:00:46 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:00:47 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:26 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:43 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:50 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:01:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:02:26 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:02:31 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:02:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:02:34 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:02:41 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:03:53 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\template-parts\page\content-page.php on line 40
+[19-Apr-2022 10:03:53 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:04:21 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\template-parts\page\content-page.php on line 42
+[19-Apr-2022 10:04:21 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:04:37 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:04:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\page.php on line 15
+[19-Apr-2022 10:05:00 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\page.php on line 15
+[19-Apr-2022 10:05:08 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:05:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:07:42 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:10:14 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[19-Apr-2022 10:11:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\index.php on line 36
+[20-Apr-2022 05:33:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Nika\Local Sites\poli0061mtm6303final\app\public\wp-content\themes\mtm6303-final\template-parts\page\content-home.php on line 40
+[20-Apr-2022 06:39:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_imagick.dll (Не найден указанный модуль.), C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_php_imagick.dll.dll (Не найден указанный модуль.)) in Unknown on line 0
+[20-Apr-2022 06:39:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_imagick.dll (Не найден указанный модуль.), C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_php_imagick.dll.dll (Не найден указанный модуль.)) in Unknown on line 0
+[20-Apr-2022 06:39:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_imagick.dll (Не найден указанный модуль.), C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_php_imagick.dll.dll (Не найден указанный модуль.)) in Unknown on line 0
+[20-Apr-2022 06:39:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_imagick.dll (Не найден указанный модуль.), C:/Users/Nika/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+16/bin/win64/ext\php_php_imagick.dll.dll (Не найден указанный модуль.)) in Unknown on line 0
